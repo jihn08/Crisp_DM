@@ -1,0 +1,678 @@
+{
+ "name": "Crisp DM",
+ "children": [
+  {
+   "name": "Bussiness Understanding",
+   "children": [
+    {
+     "name": "Generic Tasks",
+     "children": [
+	{"name": "Determine Bussiness Objectives",
+		"children": [
+			{"name": "Output",
+				"children": [
+						{"name": "Background",
+							"children": [
+{"name": "Organization",
+
+	"children": [
+			{"name": "Develop organizational charts identifying divisions, departments, and project groups"}, 
+			{"name": "Identify key persons in the business and their roles"},
+			{"name": "Identify an internal sponsor"},
+			{"name": "Indicate if there is a steering committee and list members"},
+			{"name": "Identify the business units which are affected by the data mining project"}
+		]
+	}, 
+
+
+{"name": "Problem area",
+	"children": [
+		{"name": "Identify the problem area"},
+		{"name":"Describe the problem in general terms"},
+		{"name":"Check the current status of the project"},
+		{"name":"Clarify prerequisites of the project"},
+		{"name":"If necessary, prepare presentations and present data mining to the business"},
+		{"name":"Identify target groups for the project result"},
+		{"name":"Identify the users’ needs and expectations"}
+	]
+
+
+	},
+
+{"name": "Current solution",
+	"children": [
+		{"name": "Describe any solution currently used to address the problem"},
+		{"name":"Describe the advantages of the solution and the level to which it is accepted by the users"}
+	]
+}
+
+								]
+							
+
+},
+						{"name": "Bussiness objectives", 
+		"children": [
+			{"name": "Informally describe the problem to be solved"},
+		{"name": "Specify all business questions as precisely as possible"},
+		{"name": "Specify any other business requirements"},
+		{"name": "Specify expected benefits in business terms"}			
+	]
+
+
+},
+						{"name": "Bussiness success criteria", 
+		"children": 
+	[
+		{"name": "Specify business success criteria"},
+		{"name": "Identify who assesses the success criteria"}
+	]
+		
+
+}
+					]
+
+		}]},
+	{"name": "Assess Situation",
+		"children": [
+			{"name": "Output",
+					"children": [
+						{"name": "Inventory of resources", 
+							"children":
+								[
+								 {"name": "Hardware resources",
+	"children": [
+		{"name": "Identify the base hardware"},
+		{"name": "Establish the availability of the base hardware for the data mining project"},
+		{"name": "Check if the hardware maintenance schedule conflicts with the availability for the data mining project"},
+		{"name": "Identify the hardware available for the data mining tool to be used"}
+	]
+},
+
+
+{"name": "Sources of data and knowledge", 
+	"children":
+	[
+		{"name": "dentify data sources"},
+		{"name": "Identify type of data source"},
+		{"name": "Identify knowledge sources"},
+		{"name": "Identify type of knowledge sources"},
+		{"name": "Check available tools and techniques"},
+		{"name": "Describe the relevant background knowledge"}
+	]
+},
+
+{"name": "Personnel sources", 
+	"children":
+	[
+		{"name": "Identify project sponsor"},
+		{"name": "Identify system administrator, database administrator, and technical support staff for further questions"},
+		{"name": "Identify market analysts, data mining experts, and statisticians, and check their availability"},
+		{"name": "Check availability of domain experts for later phases"} 
+	]
+}
+								]
+
+},
+						{"name": "Requirements, assumptions, and constraints", "children": [
+{"name": "Requirements", "children":
+	[
+		{"name": "Specify target group profile"},
+		{"name": "Capture all requirements on scheduling"},
+		{"name": "Capture requirements on comprehensibility, accuracy, deploy ability, and maintainability"},
+		{"name": "Capture requirements on security, legal restrictions, privacy, reporting, and project schedule"} 
+	]
+},
+
+{"name": "Assumptions", "children":
+	[
+		{"name": "Clarify all assumptions (including implicit ones) and make them explicit"},
+		{"name": "List assumptions on data quality"},
+		{"name": "List assumptions on external factors"},
+		{"name": "Clarify assumptions that lead to any of the estimates"},
+		{"name": "List all assumptions regarding whether it is necessary to understand and describe or explain the model"}
+	]
+},
+
+{"name": "Constraints", "children":
+	[
+		{"name": "Check general constraints"},
+		{"name": "Check access rights to data sources"},
+		{"name": "Check technical accessibility of data"},
+		{"name": "Check whether relevant knowledge is accessible"},
+		{"name": "Check budget constraints"}
+	]
+}
+
+		
+	]
+
+
+},
+		{"name": "Risks and contingencies", "children": [
+		{"name": "Identify risks", "children": 
+	[
+		{"name": "Identify business risks"},
+		{"name": "Identify organizational risks"},
+		{"name": "Identify financial risks"},
+		{"name": "Identify technical risks"},
+		{"name": "Identify risks that depend on data and data sources"}
+	]
+},
+
+		{"name": "Develop contingency plans", "children":
+	[
+		{"name": "Determine conditions under which each risk may occur"},
+		{"name": "Develop contingency plans"}
+	]
+}	
+			]
+
+}, 
+		{"name": "Terminology", "children": 
+	[
+		{"name": "Check prior availability of glossaries; otherwise begin to draft glossaries"},
+		{"name": "Talk to domain experts to understand their terminology"},
+		{"name": "Become familiar with the business terminology"}
+	]
+
+},
+		{"name": "Costs and benefits", "children": 
+	[
+		{"name": "Estimate costs for data collection"},
+		{"name": "Estimate costs of developing and implementing a solution"},
+		{"name": "Identify benefits"},
+		{"name": "Estimate operating costs"}
+	]
+
+}
+					]
+				}
+			]
+},
+
+		{"name": "Determine Data Mining Goals",
+			"children": [
+			{"name": "Output",
+				"children": [
+				{"name": "Data mining goals", "children": 
+	[
+		{"name": "Translate the business questions to data mining goals"},
+		{"name": "Estimate costs of developing and implementing a solution"},
+		{"name": "Identify benefits"},
+		{"name": "Estimate operating costs"}
+	]},
+						{"name": "Data mining success criteria", "children": 
+				[
+					{"name": "Specify criteria for model assessment"},
+					{"name": "Define benchmarks for evaluation criteria"},
+					{"name": "Specify criteria which address subjective assessment criteria"}
+
+				]
+
+}
+					]
+				}
+			]
+},
+
+{"name": "Produce Project Plan",
+		"children": [
+			{"name": "Output",
+					"children": [
+						{"name": "Project plan", "children": 
+		[
+				{"name": "Define the initial process plan and discuss the feasibility with all involved personnel"},
+				{"name": "Combine all identified goals and selected techniques in a coherent procedure"},
+				{"name": "Estimate the effort and resources needed to achieve and deploy the solution."},
+				{"name": "Identify critical steps"},
+				{"name": "Mark decision points"},
+				{"name": "Mark review points"},
+				{"name": "Identify major iterations"}
+		]
+
+
+},
+						{"name": "Initial assessment of tools and techniques", "children":
+				[
+				{"name": "Create a list of selection criteria for tools and techniques"},
+				{"name": "Choose potential tools and techniques"},
+				{"name": "Evaluate appropriateness of techniques"},
+				{"name": "Review and prioritize applicable techniques according to the evaluation of alternative solutions"}
+				]
+
+
+}
+					]
+				}
+			]
+}
+]}]}, 
+
+{"name": "Data understanding",
+	"children": [
+		{"name": "Generic Tasks",
+			"children": [
+					{"name": "Collect Initial Data",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Initial data collection report", "children": 
+			[
+				{"name": "Data requirements planning", "children": [
+				{"name": "Plan which information is needed"},
+				{"name":"Check if all the information needed"}					
+]
+	}, 
+
+				{"name": "Selection criteria", "children": 
+		[
+				{"name": "Specify selection criteria"},
+				{"name": "Select tables/files of interest"},
+				{"name": "Select data within a table/file"},
+				{"name": "Think about how long a history one should use"}
+		]
+}
+			]
+
+}
+										]
+								
+							}
+						]
+					},
+
+					{"name": "Describe Data",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Data description report", "children": 
+		[
+			{"name": "Volumetric analysis of data", 
+				"children": [
+					{"name": "Identify data and method of capture"},
+					{"name": "Access data sources"},
+					{"name": "Use statistical analyses if appropriate"},
+					{"name": "Report tables and their relations"},
+					{"name": "Check data volume, number of multiples, complexity"},
+					{"name": "Note if the data contain free text entries"}	
+					]
+},
+			{"name": "Attribute types and values", 
+				"children": [
+					{"name": "Check accessibility and availability of attributes"},
+					{"name": "Check attribute types"},
+					{"name": "Check attribute value ranges"},
+					{"name": "Analyze attribute correlations"},
+					{"name": "Understand the meaning of each attribute and attribute value in business terms"},
+					{"name": "For each attribute, compute basic statistics"},
+					{"name": "Analyze basic statistics and relate the results to their meaning in business terms"},
+					{"name": "Decide if the attribute is relevant for the specific data mining goal"},
+					{"name": "Determine if the attribute meaning is used consistently"},
+					{"name": "Interview domain experts to obtain their opinion of attribute relevance"},
+					{"name": "Decide if it is necessary to balance the data"}
+				]
+}
+		]
+
+}
+										]
+								
+							}
+						]
+					},
+					{"name": "Explore Data",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Data exploration report", "children": [
+					{"name": "Data exploration",
+						"children":
+							[
+								{"name": "Analyze properties of interesting attributes in detail"},
+								{"name": "Identify characteristics of sub-populations"}
+							]
+},
+					{"name": "Form suppositions for future analysis", "children": [
+					{"name": "Consider and evaluate information and findings in the data descriptions report"},
+					{"name": "Form a hypothesis and identify actions"},
+					{"name": "Transform the hypothesis into a data mining goal, if possible"},
+					{"name": "Clarify data mining goals or make them more precise"},
+					{"name": "Perform basic analysis to verify the hypothesis"}
+			]
+
+}
+				]
+
+}
+										]
+								
+							}
+						]
+					},
+					{"name": "Verify Data Quality",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Data quality report", "children": 
+				[
+					{"name": "Review keys, attribute", "children": 
+			[
+				{"name": "Check coverage"},
+				{"name": "Check keys"},
+				{"name": "Verify that the meanings of attributes and contained values fit together"},
+				{"name": "Identify missing attributes and blank fields"},
+				{"name": "Establish the meaning of missing data"},
+				{"name": "Check for attributes with different values that have similar meanings"},
+				{"name": "Check spelling and format of values"},
+				{"name": "Check for deviations, decide whether a deviation is noise"},
+				{"name": "Check for plausibility of values"}
+
+			]
+}
+				]
+}
+										]
+								
+							}
+						]
+					}
+
+
+				]
+			}
+		]
+	},
+
+{"name": "Data preparation",
+	"children": [
+		{"name": "Generic Tasks",
+			"children": [
+					{"name": "Select Data",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Rationale for inclusion/exclusion", "children":
+					[
+						{"name": "Collect appropriate additional data"},
+						{"name": "Perform significance and correlation tests to decide if fields should be included"},
+						{"name": "Reconsider Data Selection Criteria in light of experiences of data quality and data exploration"},
+						{"name": "Reconsider Data Selection Criteria in light of experience of modeling"},
+						{"name": "Select different data subsets"},
+						{"name": "Consider the use of sampling techniques"},
+						{"name": "Document the rationale for inclusion/exclusion"},
+						{"name": "Check available techniques for sampling data"}
+					]
+}
+										]
+								
+							}
+						]
+					},
+
+					{"name": "Clean Data",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Data cleaning report", "children": 
+				[
+					{"name": "Reconsider how to deal with any observed type of noise"},
+					{"name": "Correct, remove, or ignore noise"},
+					{"name": "Decide how to deal with special values and their meaning"},
+					{"name": "Reconsider Data Selection Criteria in light of experiences of data cleaning"} 
+				]
+}
+										]
+								
+							}
+						]
+					},
+					{"name": "Explore Data",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Data exploration report", "children":
+				[
+					{"name": "Check available construction mechanisms with the list of tools suggested for the project"},
+					{"name": "Decide whether it is best to perform the construction inside the tool or outside"},
+					{"name": "Reconsider Data Selection Criteria in light of experiences of data construction"}
+				]
+		
+}
+										]
+								
+							}
+						]
+					},
+					{"name": "Construct Data",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Derived attributes", "children": 
+
+				[
+					{"name": "Decide if any attribute should be normalized"},
+					{"name": "Consider adding new information on the relevant importance of attributes by adding new attributes"},
+					{"name": "How can missing attributes be constructed or imputed?"},
+					{"name": "Add new attributes to the accessed data"}
+				]
+},
+									{"name": "Generated records", "children": 
+				[
+					{"name": "Check for available techniques if needed"}
+				]
+
+}
+										]
+								
+							}
+						]
+					},
+
+					{"name": "Integrate Data",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Merged data", "children": 
+				[
+					{"name": "Check if integration facilities are able to integrate the input sources as required"},
+					{"name": "Integrate sources and store results"}, 
+					{"name": "Reconsider Data Selection Criteria in light of experiences of data integration"}
+				]
+}
+										]
+								
+							}
+						]
+					},
+					{"name": "Format Data",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Reformated data", "children":
+			[
+				{"name": "Rearranging attributes", 
+					"children": [
+						{"name": "Some tools have requirements, such as the first field being a unique identifier for each record"}					]
+},
+
+
+				{"name": "Reordering records", 
+					"children": [
+						{"name": "Change the order of the records in the dataset"}
+						]
+},
+				{"name": "Reformatted within-value", 
+					"children": [
+						{"name":"These are purely syntactic changes made to satisfy the requirements of the specific modeling tool"},
+						{"name":"Reconsider Data Selection Criteria in light of experiences of data cleaning"}
+						]
+}
+			]
+}
+										]
+							
+							}
+						]
+					}
+
+
+
+				]
+			}
+		]
+	},
+
+{"name": "Modeling",
+	"children": [
+		{"name": "Generic Tasks",
+			"children": [
+					{"name": "Select Modeling Technique",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Modeling technique","children": [{"name":"Decide on appropriate technique for exercise, bearing in mind the tool selected." }]},
+{"name": "Modeling assumptions","children": [{"name":"Define any built-in assumptions made by the technique about the data" }, {"name":"Compare these assumptions with those in the Data Description Report" }, {"name":"Make sure that these assumptions hold and go back to the Data Preparation Phase, if necessary" }]}
+										]
+								
+							}
+						]
+					},
+
+					{"name": "Generate Test Design",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Test design"  ,"children": [{"name":"Check existing test designs for each data mining goal separately" }, {"name":"Decide on necessary steps" }, {"name":"Prepare data required for test" }]}
+										]
+								
+							}
+						]
+					},
+					{"name": "Build Model",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Parameter settings","children": [{"name":"Set initial parameters" },{"name":"Document reasons for choosing those values" }]},
+{"name": "Models","children": [{"name":"Run the selected technique on the input dataset to produce the model" },{"name":"Post-process data mining results" }]},
+{"name": "Model descriptions","children": [{"name":"Describe any characteristics of the current model that may be useful for the future" },{"name":"Record parameter settings used to produce the model" },{"name":"Give a detailed description of the model and any special features" },{"name":"For rule-based models, list the rules produced, plus any assessment of per-rule or overall model accuracy and coverage" },{"name":"For opaque models, list any technical information about the model" },{"name":"Describe the model’s behavior and interpretation" },{"name":"State conclusions regarding patterns in the data" }]}
+
+										]
+								
+							}
+						]
+					},
+					{"name": "Assess Model",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Model assessment" ,"children": [{"name":"Evaluate results with respect to evaluation criteria" },{"name":"Test result according to a test strategy" },{"name":"Compare evaluation results and interpretation" },{"name":"Create ranking of results with respect to success and evaluation criteria" },{"name":"Select best models" },{"name":"Interpret results in business terms" },{"name":"Get comments on models by domain or data experts" },{"name":"Check plausibility of model" },{"name":"Check effect on data mining goal" },{"name":"Check model against given knowledge base to see if the discovered information is novel and useful" },{"name":"Check reliability of result" },{"name":"Analyze potential for deployment of each result" },{"name":"If there is a verbal description of the generated model, assess the rules: Are they logical, are they feasible, are there too many or too few, do they offend common sense?" },{"name":"Assess results" },{"name":"Get insights into why a certain modeling technique and certain parameter settings lead to good/bad results" }]},
+									{"name": "Revised parameter settings" ,"children": [{"name":"Adjust parameters to produce better models." }]}
+										]
+								
+							}
+						]
+					}
+
+				]
+			}
+		]
+	},
+
+{"name": "Evaluation",
+	"children": [
+		{"name": "Generic Tasks",
+			"children": [
+					{"name": "Evaluate results",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Assessment of data mining results with respect to business success criteria","children": [{"name":"Understand the data mining results" },{"name":"Interpret the results in terms of the application" },{"name":"Check effect on for data mining goal" },{"name":"Check the data mining result against the given knowledge base to see if the discovered information is novel and useful" },{"name":"Evaluate and assess results with respect to business success criteria" },{"name":"Compare evaluation results and interpretation" },{"name":"Rank results with respect to business success criteria" },{"name":"Check effect of result on initial application goal" },{"name":"Determine if there are new business objectives to be addressed later in the project, or in new projects" },{"name":"State recommendations for future data mining projects" }]},
+{"name": "Approved models"}
+										]
+								
+							}
+						]
+					},
+
+					{"name": "Review process",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Review of process"  ,"children": [{"name":"Provide an overview of the data mining process used" },{"name":"Analyze the data mining process. For each stage of the process ask:","children": [{"name":"Was it necessary?" },{"name":"Was it executed optimally?" },{"name":"In what ways could it be improved?" }] },{"name":"Identify failures" },{"name":"Identify misleading steps" },{"name":"Identify possible alternative actions and/or unexpected paths in the process" },{"name":"Review data mining results with respect to business success criteria" }]}
+										]
+								
+							}
+						]
+					},
+					{"name": "Determine next steps",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "List of possible actions","children": [{"name":"Analyze the potential for deployment of each result" },{"name":"Estimate potential for improvement of current process" },{"name":"Check remaining resources to determine if they allow additional process iterations" },{"name":"Recommend alternative continuations" },{"name":"Refine process plan" }]},
+{"name": "Decision","children": [{"name":"Rank the possible actions" },{"name":"Select one of the possible actions" },{"name":"Document reasons for the choice" }]}
+
+										]
+								
+							}
+						]
+					}
+
+				]
+			}
+		]
+	},
+
+	{"name": "Deployment",
+	"children": [
+		{"name": "Generic Tasks",
+			"children": [
+					{"name": "Plan Deployment",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Deployment plan","children": [{"name":"Summarize deployable results" },{"name":"Develop and evaluate alternative plans for deployment" },{"name":"Decide for each distinct knowledge or information result" },{"name":"Determine how knowledge or information will be propagated to users" },{"name":"Decide how the use of the result will be monitored and its benefits measured" },{"name":"Decide for each deployable model or software result" },{"name":"Establish how the model or software result will be deployed within the organization’s systems" },{"name":"Determine how its use will be monitored and its benefits measured" },{"name":"Identify possible problems during deployment" }]}
+										]
+								
+							}
+						]
+					},
+
+					{"name": "Plan Monitoring and Mainenance",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Monitoring and maintenance plan","children": [{"name":"Check for dynamic aspects" },{"name":"Decide how accuracy will be monitored" },{"name":"Determine when the data mining result or model should not be used any more. Identify criteria, and what should happen if the model or result could no longer be used." },{"name":"Will the business objectives of the use of the model change over time? Fully document the initial problem the model was attempting to solve." },{"name":"Develop monitoring and maintenance plan." }]}
+										]
+								
+							}
+						]
+					},
+					{"name": "Produce final report",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Final report" ,"children": [{"name":"Identify what reports are needed" },{"name":"Analyze how well initial data mining goals have been met" },{"name":"Identify target groups for report" },{"name":"Outline structure and contents of report(s)" },{"name":"Select findings to be included in the reports" },{"name":"Write a report" }]},
+{"name": "Final presentation", "children": [{"name":"Decide on target group for the final presentation and determine if they will already have received the final report" },{"name":"Select which items from the final report should be included in final presentation" }]}
+
+										]
+								
+							}
+						]
+					},
+					{"name": "Review Project",
+						"children": [
+							{"name": "Output",
+								"children": [
+									{"name": "Experience documentation","children": [{"name":"Interview all significant people involved in the project and ask them about their experience during the project" },{"name":"If end users in the business work with the data mining result(s), interview them: Are they satisfied? What could have been done better? Do they need additional support?" },{"name":"Summarize feedback and write the experience documentation" },{"name":"Analyze the process (things that worked well, mistakes made, lessons learned, etc.)" },{"name":"Document the specific data mining process" },{"name":"Generalize from the details to make the experience useful for future projects" }]}
+										]
+								
+							}
+						]
+					}
+
+				]
+			}
+		]
+	}
+]}
+
